@@ -27,7 +27,7 @@ func main() {
 		log.Fatalf("godotenv.Load: %v", err)
 	}
 
-	stripe.Key = os.Getenv("STRIPE_SECRET_KEY")
+	stripe.Key = os.Getenv("STRIPE_KEY")
 	// For sample support and debugging, not required for production:
 	stripe.SetAppInfo(&stripe.AppInfo{
 		Name:    "stripe-samples/subscription-use-cases/fixed-price",

@@ -1,0 +1,17 @@
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+go.sum
+
+*.test
+
+*.out
+
+vendor/
+
+go.work
+go.work.sum
+
+.env
